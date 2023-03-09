@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .header {
+        @apply w-full bg-green-900  py-4 px-10
+    }
+    .ul {
+        @apply flex gap-10 text-white font-semibold
+    }
+
+    .list {
+        @apply hover:text-yellow-400 transition-all ease-in-out duration-200
+    }
+}
